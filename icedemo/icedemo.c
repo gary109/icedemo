@@ -1054,6 +1054,7 @@ static void icedemo_print_menu(void)
     puts("| r | remote           Input remote ICE info                           |");
     puts("| b | start            Begin ICE negotiation                           |");
     puts("| x | send <compid> .. Send data to remote                             |");
+	puts("| dn| detect nat type						                             |");
     puts("+---+------------------------------------------------------------------+");
     puts("| h |  help            * Help! *                                       |");
     puts("| q |  quit            Quit                                            |");
