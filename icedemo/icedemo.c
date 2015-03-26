@@ -476,7 +476,7 @@ static void icedemo_init_session(unsigned rolechar)
 	PJ_LOG(1,(THIS_FILE, "Error: Session already created"));
 	return;
     }
-
+	
     status = pj_ice_strans_init_ice(icedemo.icest, role, NULL, NULL);
     if (status != PJ_SUCCESS)
 	icedemo_perror("error creating session", status);
@@ -1058,13 +1058,11 @@ static void icedemo_print_menu(void)
     puts("| r | remote           Input remote ICE info                           |");
     puts("| b | start            Begin ICE negotiation                           |");
     puts("| x | send <compid> .. Send data to remote                             |");
-	puts("| dn| detect nat type						                             |");
     puts("+---+------------------------------------------------------------------+");
     puts("| h |  help            * Help! *                                       |");
     puts("| q |  quit            Quit                                            |");
     puts("+----------------------------------------------------------------------+");
 }
-
 
 /*
  * Main console loop.
@@ -1147,7 +1145,6 @@ static void icedemo_console(void)
 	} else if (strcmp(cmd, "quit")==0 || strcmp(cmd, "q")==0) {
 
 	    app_quit = PJ_TRUE;
-
 	} else {
 
 	    printf("Invalid command '%s'\n", cmd);

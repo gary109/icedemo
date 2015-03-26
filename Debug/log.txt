@@ -1,0 +1,44 @@
+12:48:51.334 os_core_win32. !pjlib 2.3 for win32 initialized
+12:48:51.335          pjlib  select() I/O Queue created (00512524)
+12:48:54.747        icedemo  Creating ICE stream transport with 1 component(s)
+12:48:54.747        icedemo  .Comp 1: srflx candidate starts Binding discovery
+12:48:54.748       resolver  ..Transmitting 46 bytes to NS 0 (168.95.1.1:53): DNS SRV query for _stun._udp.stun.l.google.com: Success
+12:48:54.782 _stun._udp.stu !DNS SRV resolution failed for _stun._udp.stun.l.google.com: DNS "Name Error" (PJLIB_UTIL_EDNS_NXDOMAIN)
+12:48:54.783 _stun._udp.stu  DNS SRV resolution failed for _stun._udp.stun.l.google.com, trying resolving A record for stun.l.google.com
+12:48:54.783       resolver  Transmitting 35 bytes to NS 0 (168.95.1.1:53): DNS A query for stun.l.google.com: Success
+12:48:54.787        icedemo !.Comp 1: host candidate 192.168.7.24:52044 added
+12:48:54.788        icedemo  .Comp 1: host candidate 169.254.248.113:52044 added
+12:48:54.788        icedemo  .Too many host candidates
+12:48:54.788        icedemo  .ICE stream transport 005184EC created
+12:48:54.788      icedemo.c  ICE instance successfully created
+12:48:54.840 stuntp00518BC8 !.STUN mapped address found/changed: 111.251.48.28:52044
+12:48:54.847        icedemo  .Comp 1: Binding discovery complete, srflx address is 111.251.48.28:52044
+12:48:54.848      icedemo.c  .ICE initialization successful
+12:49:02.012        icedemo !ICE session created, comp_cnt=1, role is Controlling agent
+12:49:02.014        icedemo  ICE nomination type set to aggressive
+12:49:02.017        icedemo  Candidate 0 added: comp_id=1, type=srflx, foundation=Sc0a80718, addr=111.251.48.28:52044, base=192.168.7.24:52044, prio=0x6effffff (1862270975)
+12:49:02.019        icedemo  Candidate 1 added: comp_id=1, type=host, foundation=Hc0a80718, addr=192.168.7.24:52044, base=192.168.7.24:52044, prio=0x64ffffff (1694498815)
+12:49:02.021        icedemo  Candidate 2 added: comp_id=1, type=host, foundation=Ha9fef871, addr=169.254.248.113:52044, base=169.254.248.113:52044, prio=0x64ffffff (1694498815)
+12:49:02.022      icedemo.c  ICE session created
+12:51:24.837      icedemo.c  Error: not enough info
+12:51:29.577      icedemo.c  Done, 3 remote candidate(s) added
+12:52:37.032        icedemo !.Received an early check for comp 1
+12:52:37.303      icedemo.c !Starting ICE negotiation..
+12:52:37.303        icedemo  Check 1: [1] 192.168.7.24:52044-->192.168.7.224:65414 pruned (duplicate found)
+12:52:37.303        icedemo  Check 3: [1] 192.168.7.24:52044-->111.251.48.28:65414 pruned (duplicate found)
+12:52:37.304        icedemo  Check 5: [1] 192.168.7.24:52044-->122.147.155.173:49155 pruned (duplicate found)
+12:52:37.304        icedemo  Checklist created:
+12:52:37.304        icedemo   0: [1] 192.168.7.24:52044-->192.168.7.224:65414 (not nominated, state=Frozen)
+12:52:37.304        icedemo   1: [1] 169.254.248.113:52044-->192.168.7.224:65414 (not nominated, state=Frozen)
+12:52:37.304        icedemo   2: [1] 192.168.7.24:52044-->111.251.48.28:65414 (not nominated, state=Frozen)
+12:52:37.304        icedemo   3: [1] 169.254.248.113:52044-->111.251.48.28:65414 (not nominated, state=Frozen)
+12:52:37.305        icedemo   4: [1] 192.168.7.24:52044-->122.147.155.173:49155 (not nominated, state=Frozen)
+12:52:37.305        icedemo   5: [1] 169.254.248.113:52044-->122.147.155.173:49155 (not nominated, state=Frozen)
+12:52:37.305        icedemo  Starting ICE check..
+12:52:37.305        icedemo  .Check 0: [1] 192.168.7.24:52044-->192.168.7.224:65414: state changed from Frozen to Waiting
+12:52:37.305        icedemo  .Check 1: [1] 169.254.248.113:52044-->192.168.7.224:65414: state changed from Frozen to Waiting
+12:52:37.306        icedemo  .Performing delayed triggerred check for component 1
+12:52:37.306        icedemo  ..Performing triggered check for check 0
+12:52:37.306        icedemo  ...Sending connectivity check for check 0: [1] 192.168.7.24:52044-->192.168.7.224:65414
+12:52:37.306        icedemo  ....Check 0: [1] 192.168.7.24:52044-->192.168.7.224:65414: state changed from Waiting to In Progress
+12
