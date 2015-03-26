@@ -951,6 +951,9 @@ static void icedemo_start_nego(void)
 
     PJ_LOG(3,(THIS_FILE, "Starting ICE negotiation.."));
 
+
+	
+
     status = pj_ice_strans_start_ice(icedemo.icest, 
 				     pj_cstr(&rufrag, icedemo.rem.ufrag),
 				     pj_cstr(&rpwd, icedemo.rem.pwd),
@@ -991,6 +994,7 @@ static void icedemo_send_data(unsigned comp_id, const char *data)
 	PJ_LOG(1,(THIS_FILE, "Error: invalid component ID"));
 	return;
     }
+
 
     status = pj_ice_strans_sendto(icedemo.icest, comp_id, data, strlen(data),
 				  &icedemo.rem.def_addr[comp_id-1],
@@ -1211,8 +1215,8 @@ int main(int argc, char *argv[])
 
 	icedemo.opt.comp_cnt = 1;
 	icedemo.opt.max_host = -1;
-	/*
-	char* argc_array[13] = 
+	
+	char* argc_array[15] = 
 	{
 		{ "icedemo" },
 		{ "-c"},
@@ -1220,20 +1224,21 @@ int main(int argc, char *argv[])
 		{ "-n" },
 		{ "168.95.1.1" },
 		{ "-s" },
-	//	{ "stun.pjsip.org" },
-		{ "stun.ideasip.com" },
+		{ "stun.l.google.com:19302" },
 		{ "t" },
 		{ "122.147.155.173:34780" },
 		{ "-u" },
 		{ "701" },
-		{ "p" },
+		{ "-p" },
 		{ "701" },
+		{ "-L" },
+		{ "log.txt" },
 	
 	};
-	//*/
-	puts("...GY-Test 20150323...");
-	while ((c = pj_getopt_long(argc, argv, "c:n:s:t:u:p:H:L:hTFR", long_options, &opt_id)) != -1) {
-	//while ((c = pj_getopt_long(13, argc_array, "c:n:s:t:u:p:H:L:hTFR", long_options, &opt_id)) != -1) {
+
+	puts("...GY-Test 20150325...");
+	//while ((c = pj_getopt_long(argc, argv, "c:n:s:t:u:p:H:L:hTFR", long_options, &opt_id)) != -1) {
+	while ((c = pj_getopt_long(15, argc_array, "c:n:s:t:u:p:H:L:hTFR", long_options, &opt_id)) != -1) {
 	switch (c) {
 	case 'c':
 	    icedemo.opt.comp_cnt = atoi(pj_optarg);

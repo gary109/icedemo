@@ -1,4 +1,4 @@
-﻿已經開始建置於 2015/3/24 下午 03:47:27。
+﻿已經開始建置於 2015/3/26 上午 09:50:27。
      1>節點 2 (Rebuild 目標) 上的專案 "C:\Users\9200\Desktop\WORK\P2P\pjsip\icedemo\icedemo\icedemo.vcxproj"。
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\9200\Desktop\WORK\P2P\pjsip\icedemo\\pjnath\include /I"C:\Users\9200\Desktop\WORK\P2P\pjsip\icedemo\\pjlib-util\include" /IC:\Users\9200\Desktop\WORK\P2P\pjsip\icedemo\\pjlib\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt icedemo.c
@@ -62,4 +62,4 @@
 
 建置成功。
 
-經過時間 00:00:03.68
+經過時間 00:00:07.39

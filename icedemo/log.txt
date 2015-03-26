@@ -1,0 +1,31 @@
+14:33:35.239 os_core_win32. !pjlib 2.3 for win32 initialized
+14:33:35.240          pjlib  select() I/O Queue created (006D07EC)
+14:34:28.811      icedemo.c  Error: No ICE instance, create it first
+14:34:30.351        icedemo  Creating ICE stream transport with 1 component(s)
+14:34:30.353        icedemo  .Comp 1: srflx candidate starts Binding discovery
+14:34:30.355       resolver  ..Transmitting 46 bytes to NS 0 (168.95.1.1:53): DNS SRV query for _stun._udp.stun.l.google.com: Success
+14:34:30.391 _stun._udp.stu !DNS SRV resolution failed for _stun._udp.stun.l.google.com: DNS "Name Error" (PJLIB_UTIL_EDNS_NXDOMAIN)
+14:34:30.393 _stun._udp.stu  DNS SRV resolution failed for _stun._udp.stun.l.google.com, trying resolving A record for stun.l.google.com
+14:34:30.394       resolver  Transmitting 35 bytes to NS 0 (168.95.1.1:53): DNS A query for stun.l.google.com: Success
+14:34:30.525        icedemo !.Comp 1: host candidate 192.168.7.24:56201 added
+14:34:30.526        icedemo  .Comp 1: host candidate 169.254.248.113:56201 added
+14:34:30.526        icedemo  .Too many host candidates
+14:34:30.526        icedemo  .ICE stream transport 006D6BCC created
+14:34:30.527      icedemo.c  ICE instance successfully created
+14:34:30.555 stuntp006D7310 !.STUN mapped address found/changed: 1.161.18.205:56201
+14:34:30.596        icedemo  .Comp 1: Binding discovery complete, srflx address is 1.161.18.205:56201
+14:34:30.597      icedemo.c  .ICE initialization successful
+14:34:32.973        icedemo !ICE session created, comp_cnt=1, role is Controlling agent
+14:34:32.975        icedemo  ICE nomination type set to aggressive
+14:34:32.976        icedemo  Candidate 0 added: comp_id=1, type=srflx, foundation=Sc0a80718, addr=1.161.18.205:56201, base=192.168.7.24:56201, prio=0x6effffff (1862270975)
+14:34:32.978        icedemo  Candidate 1 added: comp_id=1, type=host, foundation=Hc0a80718, addr=192.168.7.24:56201, base=192.168.7.24:56201, prio=0x64ffffff (1694498815)
+14:34:32.980        icedemo  Candidate 2 added: comp_id=1, type=host, foundation=Ha9fef871, addr=169.254.248.113:56201, base=169.254.248.113:56201, prio=0x64ffffff (1694498815)
+14:34:32.981      icedemo.c  ICE session created
+14:37:32.578      icedemo.c  Shutting down..
+14:37:32.579        icedemo  .Destroying ICE session 006CBDCC
+14:37:32.580        icedemo  .ICE stream transport 006D6BCC destroyed
+14:37:32.581  ice_session.c  .ICE session 006CBDCC destroyed
+14:37:33.580        icedemo  Pool is not released by application, releasing now
+14:37:33.582       resolver  Pool is not released by application, releasing now
+14:37:33.583       dnscache  Pool is not released by application, releasing now
+14:37:33.583       dnscache  Pool is not released by application, releasing now

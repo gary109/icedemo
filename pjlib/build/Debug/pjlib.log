@@ -1,5 +1,5 @@
-﻿已經開始建置於 2015/3/23 下午 04:47:17。
-     1>節點 2 (Rebuild 目標) 上的專案 "C:\Users\9200\Desktop\WORK\P2P\pjsip\icedemo\pjlib\build\pjlib.vcxproj"。
+﻿已經開始建置於 2015/3/26 上午 09:50:28。
+     1>節點 5 (Rebuild 目標) 上的專案 "C:\Users\9200\Desktop\WORK\P2P\pjsip\icedemo\pjlib\build\pjlib.vcxproj"。
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../include /Zi /nologo /W1 /WX- /O2 /Oy- /D _LIB /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\src\pj\activesock.c ..\src\pj\addr_resolv_sock.c ..\src\pj\array.c ..\src\pj\config.c ..\src\pj\ctype.c ..\src\pj\errno.c ..\src\pj\except.c ..\src\pj\fifobuf.c ..\src\pj\file_access_win32.c ..\src\pj\file_io_win32.c ..\src\pj\guid.c ..\src\pj\guid_win32.c ..\src\pj\hash.c ..\src\pj\ioqueue_select.c ..\src\pj\ip_helper_win32.c ..\src\pj\list.c ..\src\pj\lock.c ..\src\pj\log.c ..\src\pj\log_writer_stdout.c ..\src\pj\os_core_win32.c ..\src\pj\os_error_win32.c ..\src\pj\os_info.c ..\src\pj\os_timestamp_common.c ..\src\pj\os_timestamp_win32.c ..\src\pj\os_time_win32.c ..\src\pj\pool.c ..\src\pj\pool_buf.c ..\src\pj\pool_caching.c ..\src\pj\pool_dbg.c ..\src\pj\pool_policy_malloc.c ..\src\pj\rand.c ..\src\pj\rbtree.c ..\src\pj\sock_bsd.c ..\src\pj\sock_common.c ..\src\pj\sock_qos_bsd.c ..\src\pj\sock_qos_common.c ..\src\pj\sock_qos_dummy.c ..\src\pj\sock_qos_wm.c ..\src\pj\sock_select.c ..\src\pj\ssl_sock_common.c ..\src\pj\ssl_sock_dump.c ..\src\pj\ssl_sock_ossl.c ..\src\pj\string.c ..\src\pj\timer.c ..\src\pj\types.c ..\src\pj\unicode_win32.c
          activesock.c
@@ -105,4 +105,4 @@
 
 建置成功。
 
-經過時間 00:00:03.13
+經過時間 00:00:09.04
